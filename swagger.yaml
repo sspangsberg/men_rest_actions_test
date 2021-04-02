@@ -4,6 +4,8 @@ info:
   description: MongoDB ExpressJS NodeJS REST API
   version: 1.0.0
 servers:
+  - url: https://smsj-men-restapi.herokuapp.com/api/
+    description: Remote deployment server 
   - url: http://localhost:4000/api/
     description: Localhost development server 
 components:
